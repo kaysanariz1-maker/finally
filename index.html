@@ -1061,7 +1061,7 @@ Return ONLY a valid JSON object without markdown code blocks:
     // GEMINI REST API FETCH WITH EXPONENTIAL BACKOFF (STATUS 429 AUTO RETRY)
     // =========================================================================
     async function fetchGeminiWithRetry(geminiKey, requestBody, maxRetries = 3) {
-      const models = ['gemini-2.0-flash', 'gemini-1.5-flash', 'gemini-1.5-pro'];
+      const models = ['gemini-1.5-flash'];
       let lastError = null;
 
       for (let model of models) {
