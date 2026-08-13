@@ -1,0 +1,10 @@
+{
+  "name": "Tararbari AI - Museum Guide Robot",
+  "description": "Autonomous interactive museum robot dashboard orchestrating voice input, Moonshot AI (Kimi), ElevenLabs TTS, and ESP32 hardware motor control.",
+  "requestFramePermissions": [
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
